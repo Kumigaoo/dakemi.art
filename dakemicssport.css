@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+}
+h2 {
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 3em;
+  margin-bottom: 0;
+}
+.textareas {
+  width: 40vw;
+  text-align: left;
+}
+.bigText {
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 1.5em;
+  text-align: left;
+}
+.smallText {
+}
+#caja {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  margin-top: 20vh;
+}
+#container {
+  color: white;
+
+  margin-top: 15vh;
+  margin-left: -10vw;
+}
+#containerInfo {
+  padding-left: 10vw;
+}
+.dots {
+  color: pink;
+  font-size: 2.5em;
+  position: relative;
+}
+strong {
+  color: white;
+  font-size: 1.5em;
+}
