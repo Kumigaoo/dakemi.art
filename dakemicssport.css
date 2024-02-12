@@ -9,7 +9,7 @@ h2 {
   font-family: "Pathway Gothic One", sans-serif;
 
   font-weight: normal;
-  font-size: 3vw;
+  font-size: 4vh;
 }
 .textareas {
   display: grid;
@@ -18,7 +18,7 @@ h2 {
 .bigText {
   color: white;
   font-family: "Space Grotesk";
-  font-size: 1.2vw;
+  font-size: 2.2vh;
   text-align: left;
 }
 #caja {
@@ -40,9 +40,9 @@ h2 {
 }
 .dots {
   color: pink;
-  font-size: 2vw;
+  font-size: 3vh;
 }
 strong {
   color: white;
-  font-size: 1vw;
+  font-size: 2vh;
 }
