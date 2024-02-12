@@ -2,30 +2,31 @@ body {
   background-color: black;
 }
 h2 {
-  color: white;
-  font-family: "Space Grotesk";
-  font-size: 3em;
-  margin-bottom: 0;
+  color: #f98ed4;
+  font-family: "Bitter", serif;
+
+  font-weight: normal;
+  font-size: 3.5vw;
 }
 .textareas {
-  width: 40vw;
-  text-align: left;
+  display: grid;
+  grid-template-columns: 1vw 3vw 25vw;
 }
 .bigText {
   color: white;
   font-family: "Space Grotesk";
-  font-size: 1.5em;
+  font-size: 1.6vw;
   text-align: left;
 }
-.smallText {
-}
 #caja {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 8vw;
   align-items: center;
-  display: flex;
   justify-content: center;
   position: relative;
   text-align: center;
-  margin-top: 20vh;
+  margin-top: 5vh;
 }
 #container {
   color: white;
@@ -34,14 +35,14 @@ h2 {
   margin-left: -10vw;
 }
 #containerInfo {
-  padding-left: 10vw;
+  display: grid;
+  row-gap: 1vh;
 }
 .dots {
   color: pink;
-  font-size: 2.5em;
-  position: relative;
+  font-size: 2.5vw;
 }
 strong {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.5vw;
 }

@@ -2,9 +2,9 @@
   color: white;
   font-family: "Space Grotesk", sans-serif;
 
-  font-size: 1.3em;
+  font-size: 1.3vw;
   text-decoration: none;
-  letter-spacing: 0.175rem;
+  letter-spacing: 0.185rem;
 }
 .icons a {
   color: white;
@@ -13,19 +13,21 @@
 body {
   background-image: url(9396E902-D314-40FD-A68E-959B4FD043E9.jpg);
   background-repeat: no-repeat;
-  background-position: -1600px -460px;
+  background-position: -900px -360px;
 }
 #separator {
-  display: flex;
-  justify-content: space-between;
-  margin: 2vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  column-gap: 3vw;
 }
-#logo {
-  background-color: white;
-  padding: 10vw;
+img {
+  width: 43vw;
 }
 #container {
-  padding-top: 22vh;
-  padding-left: 27vw;
-  padding-right: 27vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  min-height: 95vh;
 }

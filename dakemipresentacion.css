@@ -1,0 +1,97 @@
+.title {
+  color: white;
+  font-size: 2.4vw;
+  margin-top: 0;
+}
+.menu {
+  margin-left: 5vw;
+}
+.center {
+  margin-left: 37vw;
+  color: rgb(158, 158, 158);
+}
+.comission {
+  margin-left: 26vw;
+}
+#header {
+  position: sticky;
+  top: 0;
+  background-image: url(9396E902-D314-40FD-A68E-959B4FD043E9.jpg);
+  background-repeat: no-repeat;
+  background-position: -900px -360px;
+  background-attachment: fixed;
+  display: flex;
+  height: 3.7vw;
+  margin-top: 0;
+  padding-bottom: 2.5vw;
+  padding-top: 0.8vw;
+}
+p {
+  color: white;
+  font-size: 1vw;
+  margin-top: 0;
+  text-align: center;
+}
+body {
+  background-image: url(9396E902-D314-40FD-A68E-959B4FD043E9.jpg);
+  background-repeat: no-repeat;
+  background-position: -900px -360px;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+.img {
+  width: 30vw;
+  height: 40vw;
+}
+img {
+  object-fit: cover;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  align-items: right;
+  margin-right: 0.4vw;
+}
+.left {
+  justify-content: right;
+  margin-left: 0.4vw;
+}
+.doble {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  justify-content: center;
+  align-self: center;
+}
+.imagen {
+  width: 61vw;
+}
+h1 {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: normal;
+  letter-spacing: 0em;
+}
+.f14 {
+  margin-left: 25%;
+  display: flex;
+  width: 30vw;
+  height: 40vw;
+}
+.logo {
+  width: 15vw;
+}
+#footer {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 3vw;
+  margin-bottom: 1.5vw;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
